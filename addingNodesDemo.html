@@ -1,0 +1,27 @@
+<html>
+   
+   <head>
+      <title id="Demo">
+          The Title
+      </title>
+   </head>
+   
+   <body>
+      <div id="divone">
+          <p id="para1">this is paragraph 1</p>
+      </div> 
+      
+      <script type="text/javascript">
+
+          var para=document.createElement("p")
+          var paraText=document.createTextNode("this is new paragraph")
+          para.appendChild(paraText)     
+
+          var e=document.getElementById("divone")
+          e.appendChild(para) 
+
+      </script>
+
+   </body>
+
+</html>
